@@ -44,7 +44,6 @@ export function clearGallery() {
 
 // Показати лоадер
 export function showLoader() {
-  console.log('run: show loader')
   loader.classList.add('is-active');
   loader.classList.remove('is-hidden');
 }

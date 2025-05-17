@@ -22,7 +22,6 @@ export function getImagesByQuery(query) {
 }
 
 getImagesByQuery('pictures').then(data=>{
-  console.log(data)
 });
 
 
